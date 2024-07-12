@@ -1,4 +1,6 @@
+using API.Models;
 using API.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace API
 {
@@ -15,6 +17,7 @@ namespace API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddControllers();
+            builder.Services.AddDbContext<PRUContext>(opt=> opt.UseSqlServer("data source=34.123.203.83;initial catalog=PRU;user id=sa;password=<YourStrong@Passw0rd>;trustservercertificate=true;multipleactiveresultsets=true;"));
             builder.Services.AddSingleton<TriviaService>();
             var app = builder.Build();
 

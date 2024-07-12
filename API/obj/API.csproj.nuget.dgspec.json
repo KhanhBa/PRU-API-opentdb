@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Net1710_221_2_ValuationDiamond\\Source\\API_Pru_A-Post-Apocalyptic-Journey\\API\\API.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\Pru\\PRU-API-opentdb\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Net1710_221_2_ValuationDiamond\\Source\\API_Pru_A-Post-Apocalyptic-Journey\\API\\API.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Máy tính\\Pru\\PRU-API-opentdb\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Net1710_221_2_ValuationDiamond\\Source\\API_Pru_A-Post-Apocalyptic-Journey\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Pru\\PRU-API-opentdb\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Project\\Net1710_221_2_ValuationDiamond\\Source\\API_Pru_A-Post-Apocalyptic-Journey\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Pru\\PRU-API-opentdb\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Net1710_221_2_ValuationDiamond\\Source\\API_Pru_A-Post-Apocalyptic-Journey\\API\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Pru\\PRU-API-opentdb\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
